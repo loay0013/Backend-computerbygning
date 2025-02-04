@@ -1,0 +1,59 @@
+/*
+Theme Name: Astra Child
+Template: astra
+Author: Sigurd
+Version: 1.0
+Description: Et undertema til Astra-temaet.
+*/
+
+
+/* Styles for Hardware Meta Box */
+.hardware-meta-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.meta-box-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.meta-box-row label {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.meta-box-row input,
+.meta-box-row select,
+.meta-box-row textarea,
+.meta-box-row button {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.meta-box-row textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.meta-box-row button {
+    background-color: #007cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.meta-box-row button:hover {
+    background-color: #005a9c;
+}
